@@ -2,7 +2,7 @@
 Cristopher Lopez Jimenez 
 Gir0541
 '''
-import weather
+import requests
 
 while True:
 
@@ -17,7 +17,7 @@ while True:
         "X-RapidAPI-Host": "weatherapi-com.p.rapidapi.com"
     }
 
-    respuesta = weather.get(url, headers=headers)
+    respuesta = requests.get(url, headers=headers)
     datos_json = respuesta.json()
     estado_json = datos_json["current"]["condition"]["text"]
     if respuesta.status_code == 200:
