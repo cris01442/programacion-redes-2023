@@ -1,3 +1,7 @@
+'''
+Cristopher Lopez Jimenez 
+Gir0541
+'''
 import requests
 
 while True:
