@@ -1,6 +1,7 @@
 # Creando un servidor Web con Flask para proporcionar servicios
 # mediante los métodos GET, PUT, DELETE, POST
 # Gabriel Barrón R.
+#Cristopher López Jiménez 
 
 import json
 import sqlite3
